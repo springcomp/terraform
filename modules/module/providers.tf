@@ -2,7 +2,7 @@ terraform {
   required_providers {
       azurerm = {
         source = "hashicorp/azurerm"
-        configuration_aliases = [ azurerm.az, azurerm.log ]
+        configuration_aliases = [ azurerm, azurerm.log ]
       }
   }
 }
