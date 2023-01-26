@@ -1,3 +1,6 @@
 \.terraform/
 \.terraform\.lock\.hcl
 tfbackend.tfvars
+
+*\.vsdx
+*\.~vsdx

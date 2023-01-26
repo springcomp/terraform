@@ -1,5 +1,5 @@
 terraform {
-	backend "azurerm" {}
+  backend "azurerm" {}
 }
 
 provider "azurerm" {
@@ -17,15 +17,15 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "main" {
-	name     = "rg-main"
-	location = "West Europe"
-	provider = azurerm.az
+  name     = "rg-main"
+  location = "West Europe"
+  provider = azurerm.az
 }
 
 module "module" {
-	source = "C:\\Projects\\tf\\modules\\module"
-	providers = {
-		azurerm.az = azurerm.az
-		azurerm.log = azurerm.log
-	}
+  source = "C:\\Projects\\tf\\modules\\module"
+  providers = {
+    azurerm.az = azurerm.az
+    azurerm.log = azurerm.log
+  }
 }
