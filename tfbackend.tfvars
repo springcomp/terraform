@@ -1,0 +1,5 @@
+subscription_id ="c83e4303-5840-4128-bc4f-0a274002fcf9"
+resource_group_name="rg-global-ipaas-devops"
+storage_account_name="sastddevopsweu2"
+key="global-ipaas/sample-test-providers/int.tfstate"
+container_name="terraform-states"

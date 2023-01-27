@@ -4,3 +4,6 @@ tfbackend.tfvars
 
 *\.vsdx
 *\.~vsdx
+*\.~backup
+
+azurerm_logmanagement_provider\.tf
