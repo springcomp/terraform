@@ -7,6 +7,6 @@ variable "tenant_id" {
 variable "environment" {
   default = "int"
 }
-variable "local_debugging" {
-  default = false
+variable "log_enabled" {
+  default = true
 }

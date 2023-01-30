@@ -17,7 +17,7 @@ module "module" {
   source = "C:\\Projects\\tf\\modules\\module"
 
   environment = var.environment
-  log_enabled = !var.local_debugging 
+  log_enabled = var.log_enabled
 
   providers = {
     azurerm = azurerm
